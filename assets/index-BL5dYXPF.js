@@ -104,10 +104,6 @@ Error generating stack: `+d.message+`
 		font-size: 3rem;
 		font-weight: 700;
 	}
-	
-	@media (max-width: 600px) {
-		height: 300px;
-	}
 `;function Screen(){let{result:e,currentInput:i}=reactExports.useContext(ComputationContext);return jsxRuntimeExports.jsx(ScreenContainer,{children:jsxRuntimeExports.jsx("div",{className:"result",children:e||i})})}let KeypadContainer=dt.div`
 	margin-top: 20px;
 	width: 100%;
@@ -192,9 +188,9 @@ Error generating stack: `+d.message+`
 
 	@media (max-width: 600px) {
 		width: 100%;
-		padding: 15px;
+		padding: 30px 20px;
 		height: 100vh;
-		grid-template-rows: 70px 300px 1fr;
+		grid-template-rows: 70px 150px 1fr;
 	}
 
 	@media (min-width: 601px) {
